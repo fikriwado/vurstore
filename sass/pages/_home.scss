@@ -1,0 +1,59 @@
+.page-home {
+    .hero {
+        margin-top: 50px;
+        @include media-breakpoint-up(lg) {
+            margin-top: 120px;
+        }
+
+        &::before {
+            content: "";
+            right: 0;
+            top: 0;
+            width: 50%;
+            height: 75vh;
+            z-index: -1;
+            position: absolute;
+            background-color: $softprimary;
+            border-bottom-left-radius: 400px;
+        }
+
+        .hero-title {
+            font-family: "Montserrat", sans-serif;
+            line-height: 60px;
+            margin-bottom: 20px;
+            @include media-breakpoint-up(lg) {
+                margin-top: 50px;
+            }
+        }
+
+        .hero-desc {
+            line-height: 30px;
+            margin-bottom: 45px;
+            @include media-breakpoint-down(md) {
+                max-width: 500px;
+            }
+        }
+
+        .hero-form {
+            .form-control {
+                width: 300px;
+            }
+        }
+
+        .hero-carousel {
+            .carousel-control-prev-icon {
+                background-image: url("../images/hero-carousel/left.svg");
+            }
+
+            .carousel-control-next-icon {
+                background-image: url("../images/hero-carousel/right.svg");
+            }
+
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}

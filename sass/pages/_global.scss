@@ -1,0 +1,20 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: $grey;
+
+    &::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #edeef2;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #00887b;
+
+        &:hover {
+            background-color: #525a61;
+        }
+    }
+}

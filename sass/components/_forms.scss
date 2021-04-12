@@ -1,0 +1,13 @@
+.form-control {
+    border-radius: $border-radius;
+    background-color: #f2f5f5;
+    color: #73787e;
+    height: 45px;
+
+    &:focus,
+    .focus {
+        border-color: $primary;
+    }
+
+    @include reset-shadow();
+}

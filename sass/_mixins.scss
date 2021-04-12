@@ -1,0 +1,24 @@
+@mixin reset-shadow() {
+    &:focus,
+    .focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    &:disabled,
+    .disabled {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    &:not(:disabled):not(.disabled) {
+        &:active,
+        &.active {
+            box-shadow: none;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
