@@ -147,4 +147,35 @@
             margin-bottom: 12px;
         }
     }
+
+    .vurstore-special-offers {
+        padding-bottom: 75px;
+        @include media-breakpoint-up(lg) {
+            padding-top: 50px;
+        }
+
+        .big-offers {
+            border-radius: 14px;
+        }
+
+        .normal-offers {
+            border-radius: 8px;
+        }
+    }
+
+    .vurstore-events {
+        padding-bottom: 75px;
+        @include media-breakpoint-up(lg) {
+            padding-top: 50px;
+        }
+
+        .events-wrap-title {
+            background-color: rgba(11, 9, 9, 0.3);
+            .events-title {
+                @include font-size(16px);
+                line-height: 22px;
+                font-weight: 700;
+            }
+        }
+    }
 }

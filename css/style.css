@@ -5640,6 +5640,26 @@ body {
     line-height: 22px;
     font-size: 1rem;
     margin-bottom: 12px; }
+.page-home .vurstore-special-offers {
+  padding-bottom: 75px; }
+  @media (min-width: 992px) {
+    .page-home .vurstore-special-offers {
+      padding-top: 50px; } }
+  .page-home .vurstore-special-offers .big-offers {
+    border-radius: 14px; }
+  .page-home .vurstore-special-offers .normal-offers {
+    border-radius: 8px; }
+.page-home .vurstore-events {
+  padding-bottom: 75px; }
+  @media (min-width: 992px) {
+    .page-home .vurstore-events {
+      padding-top: 50px; } }
+  .page-home .vurstore-events .events-wrap-title {
+    background-color: rgba(11, 9, 9, 0.3); }
+    .page-home .vurstore-events .events-wrap-title .events-title {
+      font-size: 1rem;
+      line-height: 22px;
+      font-weight: 700; }
 
 .navbar-vurstore {
   transition: background-color 0.3s, padding-top 0.3s, padding-bottom 0.3s; }
