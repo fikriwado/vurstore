@@ -1,0 +1,33 @@
+.vurstore-footer {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background: linear-gradient(
+        180deg,
+        rgba(241, 253, 250, 0) 0%,
+        #f1fdfa 100%
+    );
+
+    .footer-logo {
+        margin-bottom: 14px;
+    }
+
+    .footer-menu {
+        .nav-link {
+            padding: 4px 0;
+            color: $grey;
+        }
+    }
+
+    .footer-menu-title {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+        color: $dark;
+        @include font-size(18px);
+        margin-bottom: 10px;
+    }
+
+    .form-control {
+        max-width: 164px;
+        height: auto;
+    }
+}

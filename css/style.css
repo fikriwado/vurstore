@@ -5514,7 +5514,6 @@ a.text-orange:hover, a.text-orange:focus {
 body {
   font-family: "Lato", sans-serif;
   color: #5f6368;
-  margin-bottom: 1000px;
   background-color: #f9fafc; }
   body::-webkit-scrollbar {
     width: 7px; }
@@ -5756,6 +5755,25 @@ body {
         font-size: 0.6875rem; }
       .card.card-product .card-body .to-whislist {
         width: 20px; }
+
+.vurstore-footer {
+  padding-top: 50px;
+  padding-bottom: 75px;
+  background: linear-gradient(180deg, rgba(241, 253, 250, 0) 0%, #f1fdfa 100%); }
+  .vurstore-footer .footer-logo {
+    margin-bottom: 14px; }
+  .vurstore-footer .footer-menu .nav-link {
+    padding: 4px 0;
+    color: #5f6368; }
+  .vurstore-footer .footer-menu-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #1f2021;
+    font-size: 1.125rem;
+    margin-bottom: 10px; }
+  .vurstore-footer .form-control {
+    max-width: 164px;
+    height: auto; }
 
 .font-weight-medium {
   font-weight: 500; }
