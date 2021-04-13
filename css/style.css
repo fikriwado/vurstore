@@ -5537,12 +5537,12 @@ body {
     body .section-title span {
       color: #00887b; }
 
-.page-home .fustore-hero {
+.page-home .vurstore-hero {
   margin-top: 50px; }
   @media (min-width: 992px) {
-    .page-home .fustore-hero {
+    .page-home .vurstore-hero {
       margin-top: 120px; } }
-  .page-home .fustore-hero::before {
+  .page-home .vurstore-hero::before {
     content: "";
     right: 0;
     top: 0;
@@ -5552,38 +5552,38 @@ body {
     position: absolute;
     background-color: #f1fdfa;
     border-bottom-left-radius: 400px; }
-  .page-home .fustore-hero .hero-title {
+  .page-home .vurstore-hero .hero-title {
     font-family: "Montserrat", sans-serif;
     line-height: 60px;
     margin-bottom: 20px; }
     @media (min-width: 992px) {
-      .page-home .fustore-hero .hero-title {
+      .page-home .vurstore-hero .hero-title {
         margin-top: 50px; } }
-  .page-home .fustore-hero .hero-desc {
+  .page-home .vurstore-hero .hero-desc {
     line-height: 30px;
     margin-bottom: 45px; }
     @media (max-width: 991.98px) {
-      .page-home .fustore-hero .hero-desc {
+      .page-home .vurstore-hero .hero-desc {
         max-width: 500px; } }
-  .page-home .fustore-hero .hero-form .form-control {
+  .page-home .vurstore-hero .hero-form .form-control {
     width: 300px; }
-  .page-home .fustore-hero .hero-form .btn {
+  .page-home .vurstore-hero .hero-form .btn {
     height: 45px; }
-  .page-home .fustore-hero .hero-carousel .carousel-control-prev-icon {
+  .page-home .vurstore-hero .hero-carousel .carousel-control-prev-icon {
     background-image: url("../images/hero-carousel/left.svg"); }
-  .page-home .fustore-hero .hero-carousel .carousel-control-next-icon {
+  .page-home .vurstore-hero .hero-carousel .carousel-control-next-icon {
     background-image: url("../images/hero-carousel/right.svg"); }
-  .page-home .fustore-hero .hero-carousel .carousel-control-prev-icon,
-  .page-home .fustore-hero .hero-carousel .carousel-control-next-icon {
+  .page-home .vurstore-hero .hero-carousel .carousel-control-prev-icon,
+  .page-home .vurstore-hero .hero-carousel .carousel-control-next-icon {
     width: 35px;
     height: 35px; }
-.page-home .fustore-categories {
+.page-home .vurstore-categories {
   padding-top: 75px;
   padding-bottom: 75px; }
   @media (min-width: 992px) {
-    .page-home .fustore-categories {
+    .page-home .vurstore-categories {
       padding-top: 50px; } }
-  .page-home .fustore-categories .wrap-categories .item-category {
+  .page-home .vurstore-categories .wrap-categories .item-category {
     width: 80px;
     height: 80px;
     padding-top: 20px;
@@ -5592,42 +5592,42 @@ body {
     border-radius: 8px 16px 8px 16px;
     border: 1px solid #e7eaef; }
     @media (min-width: 768px) {
-      .page-home .fustore-categories .wrap-categories .item-category {
+      .page-home .vurstore-categories .wrap-categories .item-category {
         width: 120px;
         height: 130px;
         padding-top: 20px;
         padding-bottom: 20px;
         border-radius: 15px 30px 15px 30px; } }
     @media (min-width: 992px) {
-      .page-home .fustore-categories .wrap-categories .item-category {
+      .page-home .vurstore-categories .wrap-categories .item-category {
         width: 160px;
         height: 170px;
         padding-top: 40px;
         padding-bottom: 40px; } }
-    .page-home .fustore-categories .wrap-categories .item-category .item-img {
+    .page-home .vurstore-categories .wrap-categories .item-category .item-img {
       width: 40px; }
       @media (min-width: 768px) {
-        .page-home .fustore-categories .wrap-categories .item-category .item-img {
+        .page-home .vurstore-categories .wrap-categories .item-category .item-img {
           width: 60px;
           margin-bottom: 8px; } }
       @media (min-width: 992px) {
-        .page-home .fustore-categories .wrap-categories .item-category .item-img {
+        .page-home .vurstore-categories .wrap-categories .item-category .item-img {
           width: 74px;
           margin-bottom: 12px; } }
-.page-home .fustore-products {
+.page-home .vurstore-products {
   padding-bottom: 75px; }
   @media (min-width: 992px) {
-    .page-home .fustore-products {
+    .page-home .vurstore-products {
       padding-top: 50px; } }
-  .page-home .fustore-products .card-container .card-body {
+  .page-home .vurstore-products .card-container .card-body {
     padding-bottom: 30px; }
-.page-home .fustore-room-of-ideas {
+.page-home .vurstore-room-of-ideas {
   position: relative;
   padding-bottom: 75px; }
   @media (min-width: 992px) {
-    .page-home .fustore-room-of-ideas {
+    .page-home .vurstore-room-of-ideas {
       padding-top: 50px; } }
-  .page-home .fustore-room-of-ideas::before {
+  .page-home .vurstore-room-of-ideas::before {
     content: "";
     position: absolute;
     top: 0;
@@ -5635,24 +5635,24 @@ body {
     width: 30%;
     height: 100%;
     background-color: #f1fdfa; }
-  .page-home .fustore-room-of-ideas .room-of-ideas-title {
+  .page-home .vurstore-room-of-ideas .room-of-ideas-title {
     color: #424a51;
     line-height: 22px;
     font-size: 1rem;
     margin-bottom: 12px; }
 
-.navbar-fustore {
+.navbar-vurstore {
   transition: background-color 0.3s, padding-top 0.3s, padding-bottom 0.3s; }
-  .navbar-fustore.navbar-fustore-active {
+  .navbar-vurstore.navbar-vurstore-active {
     background-color: #fff;
     padding-top: 18px;
     padding-bottom: 18px;
     box-shadow: 0px 8px 10px rgba(56, 56, 69, 0.02); }
-  .navbar-fustore.navbar-expand-lg .navbar-nav .nav-link {
+  .navbar-vurstore.navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 20px;
     padding-right: 20px;
     color: #1f2021; }
-    .navbar-fustore.navbar-expand-lg .navbar-nav .nav-link:last-child {
+    .navbar-vurstore.navbar-expand-lg .navbar-nav .nav-link:last-child {
       padding-right: 0; }
 
 .form-control {

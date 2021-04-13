@@ -1,5 +1,5 @@
 .page-home {
-    .fustore-hero {
+    .vurstore-hero {
         margin-top: 50px;
         @include media-breakpoint-up(lg) {
             margin-top: 120px;
@@ -61,7 +61,7 @@
         }
     }
 
-    .fustore-categories {
+    .vurstore-categories {
         padding-top: 75px;
         padding-bottom: 75px;
         @include media-breakpoint-up(lg) {
@@ -110,7 +110,7 @@
         }
     }
 
-    .fustore-products {
+    .vurstore-products {
         padding-bottom: 75px;
         @include media-breakpoint-up(lg) {
             padding-top: 50px;
@@ -123,7 +123,7 @@
         }
     }
 
-    .fustore-room-of-ideas {
+    .vurstore-room-of-ideas {
         position: relative;
         padding-bottom: 75px;
         @include media-breakpoint-up(lg) {

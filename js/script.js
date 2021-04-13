@@ -4,9 +4,9 @@ $(function () {
         let scrollY = $(this).scrollTop();
         
         if (scrollY >= 100) {
-            $('.navbar-fustore').addClass('navbar-fustore-active');
+            $('.navbar-vurstore').addClass('navbar-vurstore-active');
         }else{
-            $('.navbar-fustore').removeClass('navbar-fustore-active');
+            $('.navbar-vurstore').removeClass('navbar-vurstore-active');
         };
     });
 
