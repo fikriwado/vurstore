@@ -25,8 +25,12 @@ body {
         font-weight: 700;
         line-height: 31px;
         color: $dark;
-        @include font-size(24px);
+        @include font-size(22px);
         margin-bottom: 24px;
+
+        @include media-breakpoint-up(lg) {
+            @include font-size(24px);
+        }
 
         span {
             color: $primary;
