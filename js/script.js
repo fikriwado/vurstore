@@ -1,5 +1,4 @@
 $(function () {
-    
     $(window).on('scroll', function() {
         let scrollY = $(this).scrollTop();
         
@@ -16,6 +15,13 @@ $(function () {
         margin: 30,
         autoWidth:true,
         dots: false
+    });
+
+    AOS.init({
+        disable: function() {
+            var maxWidth = 992;
+            return window.innerWidth < maxWidth;
+        }
     });
 });
 
