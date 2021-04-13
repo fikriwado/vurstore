@@ -31,3 +31,14 @@
         height: auto;
     }
 }
+
+.copyright {
+    padding: 24px;
+    color: #737b83;
+    background-color: #121111;
+    @include font-size(14px);
+
+    a {
+        color: #737b83;
+    }
+}

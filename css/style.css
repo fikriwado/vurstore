@@ -5775,6 +5775,14 @@ body {
     max-width: 164px;
     height: auto; }
 
+.copyright {
+  padding: 24px;
+  color: #737b83;
+  background-color: #121111;
+  font-size: 0.875rem; }
+  .copyright a {
+    color: #737b83; }
+
 .font-weight-medium {
   font-weight: 500; }
 
