@@ -38,6 +38,10 @@
             .form-control {
                 width: 300px;
             }
+
+            .btn {
+                height: 45px;
+            }
         }
 
         .hero-carousel {
@@ -116,6 +120,31 @@
             .card-body {
                 padding-bottom: 30px;
             }
+        }
+    }
+
+    .fustore-room-of-ideas {
+        position: relative;
+        padding-bottom: 75px;
+        @include media-breakpoint-up(lg) {
+            padding-top: 50px;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 30%;
+            height: 100%;
+            background-color: $softprimary;
+        }
+
+        .room-of-ideas-title {
+            color: #424a51;
+            line-height: 22px;
+            @include font-size(16px);
+            margin-bottom: 12px;
         }
     }
 }

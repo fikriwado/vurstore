@@ -1,6 +1,7 @@
 .card {
     border: none;
     border-radius: 8px;
+    overflow: hidden;
 
     &.card-container {
         background-color: #fdfdff;

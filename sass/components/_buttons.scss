@@ -1,5 +1,8 @@
 .btn {
     border-radius: $border-radius;
     @include reset-shadow();
-    height: 45px;
+}
+
+.btn-orange {
+    color: $white;
 }
