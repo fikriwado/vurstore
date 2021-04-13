@@ -36,7 +36,9 @@
 
         .hero-form {
             .form-control {
-                width: 300px;
+                @include media-breakpoint-up(md) {
+                    width: 300px;
+                }
             }
 
             .btn {

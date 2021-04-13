@@ -5564,8 +5564,9 @@ body {
     @media (max-width: 991.98px) {
       .page-home .vurstore-hero .hero-desc {
         max-width: 500px; } }
-  .page-home .vurstore-hero .hero-form .form-control {
-    width: 300px; }
+  @media (min-width: 768px) {
+    .page-home .vurstore-hero .hero-form .form-control {
+      width: 300px; } }
   .page-home .vurstore-hero .hero-form .btn {
     height: 45px; }
   .page-home .vurstore-hero .hero-carousel .carousel-control-prev-icon {
@@ -5764,12 +5765,15 @@ body {
     margin-bottom: 14px; }
   .vurstore-footer .footer-menu .nav-link {
     padding: 4px 0;
-    color: #5f6368; }
+    color: #5f6368;
+    font-size: 0.875rem; }
+    .vurstore-footer .footer-menu .nav-link:hover {
+      color: #90969d; }
   .vurstore-footer .footer-menu-title {
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     color: #1f2021;
-    font-size: 1.125rem;
+    font-size: 1rem;
     margin-bottom: 10px; }
   .vurstore-footer .form-control {
     max-width: 164px;
