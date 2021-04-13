@@ -2508,6 +2508,64 @@ textarea.form-control {
       border-radius: 0;
       margin-bottom: -1px; }
 
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  @media (prefers-reduced-motion: reduce) {
+    .badge {
+      transition: none; } }
+  a.badge:hover, a.badge:focus {
+    text-decoration: none; }
+  .badge:empty {
+    display: none; }
+
+.btn .badge {
+  position: relative;
+  top: -1px; }
+
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem; }
+
+.badge-primary {
+  color: #fff;
+  background-color: #00887b; }
+  a.badge-primary:hover, a.badge-primary:focus {
+    color: #fff;
+    background-color: #00554d; }
+  a.badge-primary:focus, a.badge-primary.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 136, 123, 0.5); }
+
+.badge-dark {
+  color: #fff;
+  background-color: #1f2021; }
+  a.badge-dark:hover, a.badge-dark:focus {
+    color: #fff;
+    background-color: #060707; }
+  a.badge-dark:focus, a.badge-dark.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(31, 32, 33, 0.5); }
+
+.badge-grey {
+  color: #fff;
+  background-color: #5f6368; }
+  a.badge-grey:hover, a.badge-grey:focus {
+    color: #fff;
+    background-color: #474a4d; }
+  a.badge-grey:focus, a.badge-grey.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(95, 99, 104, 0.5); }
+
 .align-baseline {
   vertical-align: baseline !important; }
 
@@ -5484,6 +5542,13 @@ body {
         .page-home .fustore-categories .wrap-categories .item-category .item-img {
           width: 74px;
           margin-bottom: 12px; } }
+.page-home .fustore-products {
+  padding-bottom: 75px; }
+  @media (min-width: 992px) {
+    .page-home .fustore-products {
+      padding-top: 50px; } }
+  .page-home .fustore-products .card-container .card-body {
+    padding-bottom: 30px; }
 
 .navbar-fustore {
   transition: background-color 0.3s, padding-top 0.3s, padding-bottom 0.3s; }
@@ -5538,11 +5603,45 @@ body {
 
 .card {
   border: none;
-  border-radius: 8px;
-  background-color: #fdfdff;
-  box-shadow: 0px 100px 80px rgba(56, 56, 69, 0.01), 0px 12px 10px rgba(56, 56, 69, 0.02); }
-  .card .card-body {
-    padding: 28px 32px 40px; }
+  border-radius: 8px; }
+  .card.card-container {
+    background-color: #fdfdff;
+    box-shadow: 0px 100px 80px rgba(56, 56, 69, 0.01), 0px 12px 10px rgba(56, 56, 69, 0.02); }
+    .card.card-container .card-body {
+      padding: 28px 32px 40px; }
+  .card.card-product {
+    border-radius: 3px;
+    border: 1px solid #e7eaef; }
+    .card.card-product .card-img {
+      border: 1px solid transparent;
+      border-bottom-color: #e7eaef; }
+      .card.card-product .card-img .product-discount {
+        top: -2px;
+        left: -2px;
+        border-radius: 3px 0 0 0; }
+      .card.card-product .card-img .product-cart {
+        top: 4px;
+        right: 8px;
+        width: 20px; }
+    .card.card-product .card-body {
+      padding: 14px; }
+      .card.card-product .card-body .product-title {
+        color: #1f2021;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 24px; }
+      .card.card-product .card-body .product-price {
+        color: #00887b;
+        font-size: 1.25rem;
+        font-weight: 700; }
+        .card.card-product .card-body .product-price span {
+          color: #5f6368;
+          font-size: 1rem; }
+      .card.card-product .card-body .product-ratting {
+        color: #f5d150;
+        font-size: 0.6875rem; }
+      .card.card-product .card-body .to-whislist {
+        width: 20px; }
 
 .font-weight-medium {
   font-weight: 500; }

@@ -1,11 +1,67 @@
 .card {
     border: none;
     border-radius: 8px;
-    background-color: #fdfdff;
-    box-shadow: 0px 100px 80px rgba(56, 56, 69, 0.01),
-        0px 12px 10px rgba(56, 56, 69, 0.02);
 
-    .card-body {
-        padding: 28px 32px 40px;
+    &.card-container {
+        background-color: #fdfdff;
+        box-shadow: 0px 100px 80px rgba(56, 56, 69, 0.01),
+            0px 12px 10px rgba(56, 56, 69, 0.02);
+
+        .card-body {
+            padding: 28px 32px 40px;
+        }
+    }
+
+    &.card-product {
+        border-radius: 3px;
+        border: 1px solid $border;
+
+        .card-img {
+            border: 1px solid transparent;
+            border-bottom-color: $border;
+
+            .product-discount {
+                top: -2px;
+                left: -2px;
+                border-radius: 3px 0 0 0;
+            }
+
+            .product-cart {
+                top: 4px;
+                right: 8px;
+                width: 20px;
+            }
+        }
+
+        .card-body {
+            padding: 14px;
+
+            .product-title {
+                color: $dark;
+                font-weight: 700;
+                @include font-size(16px);
+                line-height: 24px;
+            }
+
+            .product-price {
+                color: $primary;
+                @include font-size(20px);
+                font-weight: 700;
+
+                span {
+                    color: $grey;
+                    @include font-size(16px);
+                }
+            }
+
+            .product-ratting {
+                color: #f5d150;
+                @include font-size(11px);
+            }
+
+            .to-whislist {
+                width: 20px;
+            }
+        }
     }
 }
