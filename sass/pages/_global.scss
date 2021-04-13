@@ -1,6 +1,8 @@
 body {
     font-family: "Lato", sans-serif;
     color: $grey;
+    margin-bottom: 1000px;
+    background-color: $background;
 
     &::-webkit-scrollbar {
         width: 7px;
@@ -15,6 +17,19 @@ body {
 
         &:hover {
             background-color: #525a61;
+        }
+    }
+
+    .section-title {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        line-height: 31px;
+        color: $dark;
+        @include font-size(24px);
+        margin-bottom: 24px;
+
+        span {
+            color: $primary;
         }
     }
 }

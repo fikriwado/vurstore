@@ -9,5 +9,13 @@ $(function () {
             $('.navbar-fustore').removeClass('navbar-fustore-active');
         };
     });
+
+     $('.wrap-categories').owlCarousel({
+        items:4,
+        loop: true,
+        margin: 30,
+        autoWidth:true,
+        dots: false
+    });
 });
 
